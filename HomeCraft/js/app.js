@@ -8,8 +8,9 @@ document.addEventListener('DOMContentLoaded', () =>
         {
             const li = document.createElement('li');
             li.textContent = section.id.charAt(0).toUpperCase() + section.id.slice(1);
-            li.addEventListener('click', () =>
+            li.addEventListener('click', (event) =>
                 {
+                    event.preventDefault();
                     section.scrollIntoView({ behavior: 'smooth' });
                 });
                 navbar.appendChild(li);
