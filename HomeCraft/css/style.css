@@ -1,0 +1,85 @@
+body {
+    font-family: Arial;
+    background: url(img/pexels-eberhardgross-2088170.jpg)no-repeat center center;
+    background-size: cover;
+}
+
+p{
+   font-style: italic;
+   color: black;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: rgb(5, 4, 4);
+    background-color: #fbc2f7;
+    padding: 10px 0;
+}
+h2{
+    text-align: center;
+}
+h3{
+    color: #090909;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+nav ul li.active {
+    background-color: rgb(133, 12, 113);
+    color: rgb(251, 204, 245);
+    font-weight: bolder;
+}
+
+section {
+    height: 101vh;
+    padding: 20px;
+}
+
+section#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+section#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: #010101;
+    background-color: rgb(248, 199, 221);
+}
+
+button:hover{
+    background-color: #fc6399
+}
+
+footer {
+    background-color: #fbc2f7;
+    color: #111010;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
